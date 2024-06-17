@@ -7,11 +7,11 @@ const ctx = canvas.getContext('2d');
 
 //создаем изображение мишки
 let bearImage = new Image();
-bearImage.src = "../img/bear_go.png";
+bearImage.src = "./img/bear_go.png";
 
 //создаем изображение мишки в левую сторону
 let bearImageLeft = new Image();
-bearImageLeft.src = "../img/bear_goLeft.png";
+bearImageLeft.src = "./img/bear_goLeft.png";
 
 //Создадим класс спрайтов. Его объектам потребуется 4 свойства:
 //контекст для рисования;
