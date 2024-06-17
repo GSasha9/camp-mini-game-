@@ -1,0 +1,67 @@
+body{
+    background-color: #044d2c;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+#game_field{
+    position: relative;
+}
+
+#game_field__map{
+    width: 1440px;
+    height: 100%;
+}
+
+#bear{
+    background-image: url(../img/bear_go_1.png);
+    visibility: visible;
+    background-size:cover;
+    position: absolute;
+    top: 80px;
+    left: 681px;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#fire{
+    position: absolute;
+    top: 414px;
+    left: 174px;
+}
+
+#fire>img{
+    width: 80%;
+    cursor: pointer;
+}
+
+#camp{
+    position: absolute;
+    top: 346px;
+    left: 925px;
+}
+
+#myCanvas{
+    position: absolute;
+    top: 218px;
+    left: 13px;
+}
+
+#bear_go{
+    position: absolute;
+    top: 80px;
+    left: 681px;
+    background-image: url(../img/bear_go.png);
+    width: 100px;
+    height: 150px;
+    visibility: hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
